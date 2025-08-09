@@ -1,0 +1,53 @@
+@prefix ex: <http://example.org/> .
+@prefix : <http://example.org/states/> .
+
+:State_AL ex:neighbors :State_MS, :State_TN, :State_FL, :State_GA .
+:State_AK ex:neighbors .
+:State_AZ ex:neighbors :State_NV, :State_NM, :State_UT, :State_CA, :State_CO .
+:State_AR ex:neighbors :State_OK, :State_TN, :State_TX, :State_LA, :State_MS, :State_MO .
+:State_CA ex:neighbors :State_OR, :State_AZ, :State_NV .
+:State_CO ex:neighbors :State_NM, :State_OK, :State_UT, :State_WY, :State_AZ, :State_KS, :State_NE .
+:State_CT ex:neighbors :State_NY, :State_RI, :State_MA .
+:State_DE ex:neighbors :State_NJ, :State_PA, :State_MD .
+:State_FL ex:neighbors :State_GA, :State_AL .
+:State_GA ex:neighbors :State_NC, :State_SC, :State_TN, :State_AL, :State_FL .
+:State_HI ex:neighbors .
+:State_ID ex:neighbors :State_UT, :State_WA, :State_WY, :State_MT, :State_NV, :State_OR .
+:State_IL ex:neighbors :State_KY, :State_MO, :State_WI, :State_IN, :State_IA .
+:State_IN ex:neighbors :State_MI, :State_OH, :State_IL, :State_KY .
+:State_IA ex:neighbors :State_NE, :State_SD, :State_WI, :State_IL, :State_MN, :State_MO .
+:State_KS ex:neighbors :State_NE, :State_OK, :State_CO, :State_MO .
+:State_KY ex:neighbors :State_TN, :State_VA, :State_WV, :State_IL, :State_IN, :State_MO, :State_OH .
+:State_LA ex:neighbors :State_TX, :State_AR, :State_MS .
+:State_ME ex:neighbors :State_NH .
+:State_MD ex:neighbors :State_VA, :State_WV, :State_DE, :State_PA .
+:State_MA ex:neighbors :State_NY, :State_RI, :State_VT, :State_CT, :State_NH .
+:State_MI ex:neighbors :State_OH, :State_WI, :State_IL, :State_IN, :State_MN .
+:State_MN ex:neighbors :State_ND, :State_SD, :State_WI, :State_IA, :State_MI .
+:State_MS ex:neighbors :State_LA, :State_TN, :State_AL, :State_AR .
+:State_MO ex:neighbors :State_NE, :State_OK, :State_TN, :State_AR, :State_IL, :State_IA, :State_KS, :State_KY .
+:State_MT ex:neighbors :State_SD, :State_WY, :State_ID, :State_ND .
+:State_NE ex:neighbors :State_MO, :State_SD, :State_WY, :State_CO, :State_IA, :State_KS .
+:State_NV ex:neighbors :State_ID, :State_OR, :State_UT, :State_AZ, :State_CA .
+:State_NH ex:neighbors :State_VT, :State_ME, :State_MA .
+:State_NJ ex:neighbors :State_PA, :State_DE, :State_NY .
+:State_NM ex:neighbors :State_OK, :State_TX, :State_UT, :State_AZ, :State_CO .
+:State_NY ex:neighbors :State_PA, :State_RI, :State_VT, :State_CT, :State_MA, :State_NJ .
+:State_NC ex:neighbors :State_TN, :State_VA, :State_GA, :State_SC .
+:State_ND ex:neighbors :State_SD, :State_MN, :State_MT .
+:State_OH ex:neighbors :State_MI, :State_PA, :State_WV, :State_IN, :State_KY .
+:State_OK ex:neighbors :State_MO, :State_NM, :State_TX, :State_AR, :State_CO, :State_KS .
+:State_OR ex:neighbors :State_NV, :State_WA, :State_CA, :State_ID .
+:State_PA ex:neighbors :State_NY, :State_OH, :State_WV, :State_DE, :State_MD, :State_NJ .
+:State_RI ex:neighbors :State_MA, :State_NY, :State_CT .
+:State_SC ex:neighbors :State_NC, :State_GA .
+:State_SD ex:neighbors :State_NE, :State_ND, :State_WY, :State_IA, :State_MN, :State_MT .
+:State_TN ex:neighbors :State_MS, :State_MO, :State_NC, :State_VA, :State_AL, :State_AR, :State_GA, :State_KY .
+:State_TX ex:neighbors :State_NM, :State_OK, :State_AR, :State_LA .
+:State_UT ex:neighbors :State_NV, :State_NM, :State_WY, :State_AZ, :State_CO, :State_ID .
+:State_VT ex:neighbors :State_NH, :State_NY, :State_MA .
+:State_VA ex:neighbors :State_NC, :State_TN, :State_WV, :State_KY, :State_MD .
+:State_WA ex:neighbors :State_OR, :State_ID .
+:State_WV ex:neighbors :State_PA, :State_VA, :State_KY, :State_MD, :State_OH .
+:State_WI ex:neighbors :State_MI, :State_MN, :State_IL, :State_IA .
+:State_WY ex:neighbors :State_NE, :State_SD, :State_UT, :State_CO, :State_ID, :State_MT .
