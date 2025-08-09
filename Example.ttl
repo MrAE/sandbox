@@ -1,0 +1,68 @@
+@prefix schema: <http://schema.org/> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.org/entities/> .
+@prefix us: <http://example.org/vocab/us#> .
+
+# ------------------------------
+# States
+# ------------------------------
+
+ex:California a schema:State ;
+    schema:name "California" ;
+    schema:containedInPlace ex:UnitedStates ;
+    schema:hasPart ex:LosAngeles, ex:SanFrancisco ;
+    gn:population 39538223 ;
+    gn:featureCode gn:A.ADM1 ;
+    geo:lat "36.7783"^^schema:Number ;
+    geo:long "-119.4179"^^schema:Number .
+
+ex:Texas a schema:State ;
+    schema:name "Texas" ;
+    schema:containedInPlace ex:UnitedStates ;
+    schema:hasPart ex:Austin, ex:Houston ;
+    gn:population 29145505 ;
+    gn:featureCode gn:A.ADM1 ;
+    geo:lat "31.9686"^^schema:Number ;
+    geo:long "-99.9018"^^schema:Number .
+
+# ------------------------------
+# Cities
+# ------------------------------
+
+ex:LosAngeles a schema:City ;
+    schema:name "Los Angeles" ;
+    schema:containedInPlace ex:California ;
+    gn:population 3979576 ;
+    geo:lat "34.0522"^^schema:Number ;
+    geo:long "-118.2437"^^schema:Number .
+
+ex:SanFrancisco a schema:City ;
+    schema:name "San Francisco" ;
+    schema:containedInPlace ex:California ;
+    gn:population 873965 ;
+    geo:lat "37.7749"^^schema:Number ;
+    geo:long "-122.4194"^^schema:Number .
+
+ex:Austin a schema:City ;
+    schema:name "Austin" ;
+    schema:containedInPlace ex:Texas ;
+    gn:population 964254 ;
+    geo:lat "30.2672"^^schema:Number ;
+    geo:long "-97.7431"^^schema:Number .
+
+ex:Houston a schema:City ;
+    schema:name "Houston" ;
+    schema:containedInPlace ex:Texas ;
+    gn:population 2320268 ;
+    geo:lat "29.7604"^^schema:Number ;
+    geo:long "-95.3698"^^schema:Number .
+
+# ------------------------------
+# Country (US)
+# ------------------------------
+
+ex:UnitedStates a schema:Country ;
+    schema:name "United States of America" ;
+    gn:featureCode gn:A.PCLI .
