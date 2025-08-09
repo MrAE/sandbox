@@ -66,3 +66,14 @@ ex:Houston a schema:City ;
 ex:UnitedStates a schema:Country ;
     schema:name "United States of America" ;
     gn:featureCode gn:A.PCLI .
+
+
+ex:CaliforniaPopulation2020 a schema:PopulationStatistics ;
+    schema:populationType "Census 2020" ;
+    schema:populationNumber 39538223 ;
+    schema:datePublished "2020-04-01"^^schema:Date ;
+    schema:about ex:California .
+
+ex:California geo:hasGeometry <http://example.org/geojson/california.json> .
+
+ex:California owl:sameAs <https://www.wikidata.org/entity/Q99> .
